@@ -50,7 +50,14 @@ print(alfa_numerico)
 alfa_numerico.remove('b')
 print(alfa_numerico)
 
-# Eliminar el primer valor que se encuentre
+# Eliminar un rango de posiciones
+print(alfa_numerico)
+del alfa_numerico[2:6]
+print(alfa_numerico)
+
+
+
+# Invertir la lista
 print(alfa_numerico)
 alfa_numerico.reverse()
 print(alfa_numerico)
@@ -83,5 +90,9 @@ matriz
 
             Fila  Columna
 '''
-matriz = ([10, 12, 14, 16, 18], [20, 22, 24, 26, 28])
+matriz = [ 
+    [10, 12, 14, 16, 18], 
+    [20, 22, 24, 26, 28] 
+]
+
 print(matriz[1][2])

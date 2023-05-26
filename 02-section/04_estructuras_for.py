@@ -28,3 +28,10 @@ for i in range(len(animales)):
     print(f'{i} \t {animal} \t {len(animal)}')
 
 
+print ('\n conjunto cuadrados \n')   
+cuadrados = [x**2 for x in range(10)]
+print(cuadrados)
+
+print ('\n conjunto de decimales de pi \n')   
+from math import pi
+[str(round(pi, i)) for i in range(1, 6)]
