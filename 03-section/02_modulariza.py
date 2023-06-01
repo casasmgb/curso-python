@@ -1,5 +1,5 @@
-# from calculos import calcular, descuento, iva
-import calculos
+# from operaciones import calcular, descuento, iva
+import operaciones
 import math
 
 productos = { }
@@ -16,8 +16,8 @@ while lectura:
 
 print('\n\nCalculando valores... \n\n')
 
-total_descuento = calculos.calcular(productos, calculos.descuento)
-total_iva = calculos.calcular(productos, calculos.iva)
+total_descuento = operaciones.calcular(productos, operaciones.descuento)
+total_iva = operaciones.calcular(productos, operaciones.iva)
 
 total_descuento = round(total_descuento, 2)
 total_iva = round(total_iva, 2)

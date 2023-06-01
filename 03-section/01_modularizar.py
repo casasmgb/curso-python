@@ -1,5 +1,5 @@
-# from calculos import calcular, descuento, iva
-import principal
+# from operaciones import calcular, descuento, iva
+import operaciones
 
 productos = {
     'cereal': 85,
@@ -11,5 +11,5 @@ productos = {
     'pasta dental': 36
 }
 
-print('Descuento Total: ', principal.calcular(productos, principal.descuento))
-print('IVA Total: ', principal.calcular(productos, principal.iva))
+print('Descuento Total: ', operaciones.calcular(productos, operaciones.descuento))
+print('IVA Total: ', operaciones.calcular(productos, operaciones.iva))
