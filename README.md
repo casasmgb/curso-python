@@ -28,8 +28,19 @@ Tercera Sección
 * Programación Orientada a Objetos POO
 * Manejo de errores
 
+Referencias
 
    https://docs.python.org/es/3/tutorial/index.html
+
    https://www.w3schools.com/python/
 
 
+Libros:
+
+   python para todos   
+
+   https://do1.dr-chuck.com/pythonlearn/ES_es/pythonlearn.pdf
+
+   Aprende Python en un fin de semana
+   
+   https://z-lib.is/book/aprende-python-en-un-fin-de-semana-spanish-edition
