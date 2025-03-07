@@ -48,7 +48,6 @@ print( 5 < 8 )
 print( 3 <= 10)
 print( 3 >= 10)
 
-
 '''
     TRUE        FALSE
     SI          NO
@@ -64,7 +63,7 @@ and     operador "y"
 or      operador "o"
 not     operador "negado"
 '''
-print('OPERADORES LOGICOS......')
+print('OPERADORES LOGICOS...... ')
 print (True and False)
 print (False and False)
 print (True and True)
