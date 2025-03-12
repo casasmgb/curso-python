@@ -1,28 +1,3 @@
-<style>
-    table {
-        border-collapse: collapse;
-        width: 50%;
-        margin: 20px auto;
-    }
-    th, td {
-        border: 1px solid #000;
-        padding: 8px;
-        text-align: center;
-    }
-    .data {
-        background-color:rgb(5, 92, 135);
-    }
-    .prev {
-        background-color:rgb(110, 82, 7);
-    }
-    .check {
-        background-color:rgb(52, 110, 7);
-    }
-    .select {
-        background-color:rgb(176, 32, 10);
-    }
-</style>
-
 # 🧮 Código Python con Explicaciones en Markdown
 
 ## **1. Lista de Números Impares**
@@ -31,20 +6,20 @@ impares = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
 print(impares)
 ```
 ###  Índices de la Lista
-<table style="font-size: 18px; border-collapse: collapse; width: 100%;">
+<table style="font-size: 18px; border-collapse: collapse; width: 100%; margin: 20px auto;">
   <thead>
     <tr>
       <th style="border: 1px solid #000; padding: 8px;">Valor</th>
-      <th class="data" style="border: 1px solid #000; padding: 8px;">1</th>
-      <th class="data" style="border: 1px solid #000; padding: 8px;">3</th>
-      <th class="data" style="border: 1px solid #000; padding: 8px;">5</th>
-      <th class="data" style="border: 1px solid #000; padding: 8px;">7</th>
-      <th class="check" style="border: 1px solid #000; padding: 8px;">9</th>
-      <th class="data" style="border: 1px solid #000; padding: 8px;">11</th>
-      <th class="data" style="border: 1px solid #000; padding: 8px;">13</th>
-      <th class="data" style="border: 1px solid #000; padding: 8px;">15</th>
-      <th class="data" style="border: 1px solid #000; padding: 8px;">17</th>
-      <th class="data" style="border: 1px solid #000; padding: 8px;">19</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">1</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">3</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">5</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">7</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(52, 110, 7);">9</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">11</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">13</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">15</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">17</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">19</th>
     </tr>
   </thead>
   <tbody>
@@ -54,7 +29,7 @@ print(impares)
       <td style="border: 1px solid #000; padding: 8px;"><strong>1</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>2</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>3</strong></td>
-      <td class="select" style="border: 1px solid #000; padding: 8px;"><strong>4</strong></td>
+      <td style="border: 1px solid #000; padding: 8px; background-color:rgb(176, 32, 10);"><strong>4</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>5</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>6</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>7</strong></td>
@@ -169,39 +144,59 @@ print(desordenado)
   <thead>
     <tr>
       <th style="border: 1px solid #000; padding: 8px;">Carácter</th>
-      <th class="data" style="border: 1px solid #000; padding: 8px;">H</th>
-      <th class="data" style="border: 1px solid #000; padding: 8px;">e</th>
-      <th class="data" style="border: 1px solid #000; padding: 8px;">l</th>
-      <th class="data" style="border: 1px solid #000; padding: 8px;">l</th>
-      <th class="data" style="border: 1px solid #000; padding: 8px;">o</th>
-      <th class="data" style="border: 1px solid #000; padding: 8px;">_</th>
-      <th class="check" style="border: 1px solid #000; padding: 8px;">f</th>
-      <th class="check" style="border: 1px solid #000; padding: 8px;">r</th>
-      <th class="check" style="border: 1px solid #000; padding: 8px;">o</th>
-      <th class="check" style="border: 1px solid #000; padding: 8px;">m</th>
-      <th class="data" style="border: 1px solid #000; padding: 8px;">_</th>
-      <th class="data" style="border: 1px solid #000; padding: 8px;">p</th>
-      <th class="data" style="border: 1px solid #000; padding: 8px;">y</th>
-      <th class="data" style="border: 1px solid #000; padding: 8px;">t</th>
-      <th class="data" style="border: 1px solid #000; padding: 8px;">h</th>
-      <th class="data" style="border: 1px solid #000; padding: 8px;">o</th>
-      <th class="data" style="border: 1px solid #000; padding: 8px;">n</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(52, 110, 7);">H</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(52, 110, 7);">e</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(52, 110, 7);">l</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(52, 110, 7);">l</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(52, 110, 7);">o</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">_</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(52, 110, 7);">f</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(52, 110, 7);">r</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(52, 110, 7);">o</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(52, 110, 7);">m</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">_</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">p</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">y</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">t</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">h</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">o</th>
+      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">n</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>Índice Positivo</strong></td>
+      <td style="border: 1px solid #000; padding: 8px;"><strong>word[:5]</strong></td>
+      <td style="border: 1px solid #000; padding: 8px; background-color:rgb(176, 32, 10);"><strong>0</strong></td>
+      <td style="border: 1px solid #000; padding: 8px;"><strong>1</strong></td>
+      <td style="border: 1px solid #000; padding: 8px;"><strong>2</strong></td>
+      <td style="border: 1px solid #000; padding: 8px;"><strong>3</strong></td>
+      <td style="border: 1px solid #000; padding: 8px; background-color:rgb(176, 96, 10);"><strong>4</strong></td>
+      <td style="border: 1px solid #000; padding: 8px; background-color:rgb(176, 32, 10);"><strong>5</strong></td>
+      <td style="border: 1px solid #000; padding: 8px;"><strong>6</strong></td>
+      <td style="border: 1px solid #000; padding: 8px;"><strong>7</strong></td>
+      <td style="border: 1px solid #000; padding: 8px;"><strong>8</strong></td>
+      <td style="border: 1px solid #000; padding: 8px;"><strong>9</strong></td>
+      <td style="border: 1px solid #000; padding: 8px;"><strong>10</strong></td>
+      <td style="border: 1px solid #000; padding: 8px;"><strong>11</strong></td>
+      <td style="border: 1px solid #000; padding: 8px;"><strong>12</strong></td>
+      <td style="border: 1px solid #000; padding: 8px;"><strong>13</strong></td>
+      <td style="border: 1px solid #000; padding: 8px;"><strong>14</strong></td>
+      <td style="border: 1px solid #000; padding: 8px;"><strong>15</strong></td>
+      <td style="border: 1px solid #000; padding: 8px;"><strong>16</strong></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 8px;"><strong>word[6:10]</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>0</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>1</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>2</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>3</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>4</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>5</strong></td>
-      <td class="select" style="border: 1px solid #000; padding: 8px;"><strong>6</strong></td>
+      <td style="border: 1px solid #000; padding: 8px; background-color:rgb(176, 32, 10);"><strong>6</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>7</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>8</strong></td>
-      <td class="prev" style="border: 1px solid #000; padding: 8px;"><strong>9</strong></td>
-      <td class="select" style="border: 1px solid #000; padding: 8px;"><strong>10</strong></td>
+      <td style="border: 1px solid #000; padding: 8px; background-color:rgb(176, 96, 10);"><strong>9</strong></td>
+      <td style="border: 1px solid #000; padding: 8px; background-color:rgb(176, 32, 10);"><strong>10</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>11</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>12</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>13</strong></td>
@@ -217,11 +212,11 @@ print(desordenado)
       <td style="border: 1px solid #000; padding: 8px;"><strong>-14</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>-13</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>-12</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-11</strong></td>
+      <td style="border: 1px solid #000; padding: 8px; background-color:rgb(176, 32, 10);"><strong>-11</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>-10</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>-9</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>-8</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-7</strong></td>
+      <td style="border: 1px solid #000; padding: 8px; background-color:rgb(176, 32, 10);"><strong>-7</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>-6</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>-5</strong></td>
       <td style="border: 1px solid #000; padding: 8px;"><strong>-4</strong></td>
@@ -238,6 +233,7 @@ print(word)
 
 print(word[:5])   # primeros 5 caracteres (Hello)
 print(word[6:10]) # caracteres desde la posición 6 hasta la 9 (from)
+print(word[-11:-7]) # caracteres desde la posición -7 hasta la -11 (from)
 ```
 
 ## **10. Matrices**
@@ -250,25 +246,25 @@ print(word[6:10]) # caracteres desde la posición 6 hasta la 9 (from)
         <th></th>
         <th>0</th>
         <th>1</th>
-        <th class="select">2</th>
+        <th style=" background-color:rgb(176, 32, 10);">2</th>
         <th>3</th>
         <th>4</th>
     </tr>
     <tr>
         <th>0</th>
-        <td class="data" style="border: 1px solid #000; padding: 8px;">10</td>
-        <td class="data" style="border: 1px solid #000; padding: 8px;">12</td>
-        <td class="data" style="border: 1px solid #000; padding: 8px;">14</td>
-        <td class="data" style="border: 1px solid #000; padding: 8px;">16</td>
-        <td class="data" style="border: 1px solid #000; padding: 8px;">18</td>
+        <td style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">10</td>
+        <td style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">12</td>
+        <td style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">14</td>
+        <td style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">16</td>
+        <td style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">18</td>
     </tr>
     <tr>
-        <th class="select" >1</th>
-        <td class="data" style="border: 1px solid #000; padding: 8px;">20</td>
-        <td class="data" style="border: 1px solid #000; padding: 8px;">22</td>
-        <td class="check" style="border: 1px solid #000; padding: 8px;">24</td>
-        <td class="data" style="border: 1px solid #000; padding: 8px;">26</td>
-        <td class="data" style="border: 1px solid #000; padding: 8px;">28</td>
+        <th style=" background-color:rgb(176, 32, 10);" >1</th>
+        <td style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">20</td>
+        <td style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">22</td>
+        <td style="border: 1px solid #000; padding: 8px; background-color:rgb(52, 110, 7);">24</td>
+        <td style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">26</td>
+        <td style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">28</td>
     </tr>
 </table>
 
