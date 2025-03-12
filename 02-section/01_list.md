@@ -9,45 +9,45 @@ print(impares)
 <table style="font-size: 18px; border-collapse: collapse; width: 100%; margin: 20px auto;">
   <thead>
     <tr>
-      <th style="border: 1px solid #000; padding: 8px;">Valor</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">1</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">3</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">5</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">7</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(52, 110, 7);">9</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">11</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">13</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">15</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">17</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">19</th>
+      <th>Valor</th>
+      <th>1</th>
+      <th>3</th>
+      <th>5</th>
+      <th>7</th>
+      <th>9🟢</th>
+      <th>11</th>
+      <th>13</th>
+      <th>15</th>
+      <th>17</th>
+      <th>19</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>Índice Positivo</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>0</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>1</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>2</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>3</strong></td>
-      <td style="border: 1px solid #000; padding: 8px; background-color:rgb(176, 32, 10);"><strong>4</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>5</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>6</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>7</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>8</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>9</strong></td>
+      <td><strong>Índice Positivo</strong></td>
+      <td><strong>0</strong></td>
+      <td><strong>1</strong></td>
+      <td><strong>2</strong></td>
+      <td><strong>3</strong></td>
+      <td><strong>4🔴</strong></td>
+      <td><strong>5</strong></td>
+      <td><strong>6</strong></td>
+      <td><strong>7</strong></td>
+      <td><strong>8</strong></td>
+      <td><strong>9</strong></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>Índice Negativo</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-9</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-8</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-7</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-6</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-5</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-4</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-3</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-2</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-1</strong></td>
+      <td><strong>Índice Negativo</strong></td>
+      <td></td>
+      <td><strong>-9</strong></td>
+      <td><strong>-8</strong></td>
+      <td><strong>-7</strong></td>
+      <td><strong>-6🔴</strong></td>
+      <td><strong>-5</strong></td>
+      <td><strong>-4</strong></td>
+      <td><strong>-3</strong></td>
+      <td><strong>-2</strong></td>
+      <td><strong>-1</strong></td>
     </tr>
   </tbody>
 </table>
@@ -73,6 +73,52 @@ print(impares[4:])
 2. Se utilizan rebanadas (`slicing`) para obtener subconjuntos de la lista.
 
 ## **4. Mostrar Rangos de la Lista**
+<table style="font-size: 18px; border-collapse: collapse; width: 100%; margin: 20px auto;">
+  <thead>
+    <tr>
+      <th>Valor</th>
+      <th>1</th>
+      <th>3</th>
+      <th>5</th>
+      <th>7🟢</th>
+      <th>9🟢</th>
+      <th>11🟢</th>
+      <th>13🟢</th>
+      <th>15🟢</th>
+      <th>17</th>
+      <th>19</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Índice Positivo</strong></td>
+      <td><strong>0</strong></td>
+      <td><strong>1</strong></td>
+      <td><strong>2</strong></td>
+      <td><strong>3🔴</strong></td>
+      <td><strong>4</strong></td>
+      <td><strong>5</strong></td>
+      <td><strong>6</strong></td>
+      <td><strong>7🔴</strong></td>
+      <td><strong>8</strong></td>
+      <td><strong>9</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Índice Negativo</strong></td>
+      <td></td>
+      <td><strong>-9</strong></td>
+      <td><strong>-8</strong></td>
+      <td><strong>-7🔴</strong></td>
+      <td><strong>-6</strong></td>
+      <td><strong>-5</strong></td>
+      <td><strong>-4</strong></td>
+      <td><strong>-3🔴</strong></td>
+      <td><strong>-2</strong></td>
+      <td><strong>-1</strong></td>
+    </tr>
+  </tbody>
+</table>
+
 ```python
 # Mostrar rango
 print(impares[3:7])
@@ -143,86 +189,86 @@ print(desordenado)
 <table style="font-size: 18px; border-collapse: collapse; width: 100%;">
   <thead>
     <tr>
-      <th style="border: 1px solid #000; padding: 8px;">Carácter</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(52, 110, 7);">H</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(52, 110, 7);">e</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(52, 110, 7);">l</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(52, 110, 7);">l</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(52, 110, 7);">o</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">_</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(52, 110, 7);">f</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(52, 110, 7);">r</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(52, 110, 7);">o</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(52, 110, 7);">m</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">_</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">p</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">y</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">t</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">h</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">o</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">n</th>
+      <th>Carácter</th>
+      <th>H🟢</th>
+      <th>e🟢</th>
+      <th>l🟢</th>
+      <th>l🟢</th>
+      <th>o🟢</th>
+      <th>_</th>
+      <th>f🟢</th>
+      <th>r🟢</th>
+      <th>o🟢</th>
+      <th>m🟢</th>
+      <th>_</th>
+      <th>p</th>
+      <th>y</th>
+      <th>t</th>
+      <th>h</th>
+      <th>o </th>
+      <th>n</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>word[:5]</strong></td>
-      <td style="border: 1px solid #000; padding: 8px; background-color:rgb(176, 32, 10);"><strong>0</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>1</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>2</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>3</strong></td>
-      <td style="border: 1px solid #000; padding: 8px; background-color:rgb(176, 96, 10);"><strong>4</strong></td>
-      <td style="border: 1px solid #000; padding: 8px; background-color:rgb(176, 32, 10);"><strong>5</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>6</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>7</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>8</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>9</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>10</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>11</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>12</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>13</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>14</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>15</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>16</strong></td>
+      <td><strong>word[:5]</strong></td>
+      <td><strong>0🔴</strong></td>
+      <td><strong>1</strong></td>
+      <td><strong>2</strong></td>
+      <td><strong>3</strong></td>
+      <td><strong>4🟡</strong></td>
+      <td><strong>5🔴</strong></td>
+      <td><strong>6</strong></td>
+      <td><strong>7</strong></td>
+      <td><strong>8</strong></td>
+      <td><strong>9</strong></td>
+      <td><strong>10</strong></td>
+      <td><strong>11</strong></td>
+      <td><strong>12</strong></td>
+      <td><strong>13</strong></td>
+      <td><strong>14</strong></td>
+      <td><strong>15</strong></td>
+      <td><strong>16</strong></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>word[6:10]</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>0</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>1</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>2</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>3</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>4</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>5</strong></td>
-      <td style="border: 1px solid #000; padding: 8px; background-color:rgb(176, 32, 10);"><strong>6</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>7</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>8</strong></td>
-      <td style="border: 1px solid #000; padding: 8px; background-color:rgb(176, 96, 10);"><strong>9</strong></td>
-      <td style="border: 1px solid #000; padding: 8px; background-color:rgb(176, 32, 10);"><strong>10</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>11</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>12</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>13</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>14</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>15</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>16</strong></td>
+      <td><strong>word[6:10]</strong></td>
+      <td><strong>0</strong></td>
+      <td><strong>1</strong></td>
+      <td><strong>2</strong></td>
+      <td><strong>3</strong></td>
+      <td><strong>4</strong></td>
+      <td><strong>5</strong></td>
+      <td><strong>6🔴</strong></td>
+      <td><strong>7</strong></td>
+      <td><strong>8</strong></td>
+      <td><strong>9🟡</strong></td>
+      <td><strong>10🔴</strong></td>
+      <td><strong>11</strong></td>
+      <td><strong>12</strong></td>
+      <td><strong>13</strong></td>
+      <td><strong>14</strong></td>
+      <td><strong>15</strong></td>
+      <td><strong>16</strong></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>Índice Negativo</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-16</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-15</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-14</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-13</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-12</strong></td>
-      <td style="border: 1px solid #000; padding: 8px; background-color:rgb(176, 32, 10);"><strong>-11</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-10</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-9</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-8</strong></td>
-      <td style="border: 1px solid #000; padding: 8px; background-color:rgb(176, 32, 10);"><strong>-7</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-6</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-5</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-4</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-3</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-2</strong></td>
-      <td style="border: 1px solid #000; padding: 8px;"><strong>-1</strong></td>
+      <td><strong>Índice Negativo</strong></td>
+      <td></td>
+      <td><strong>-16</strong></td>
+      <td><strong>-15</strong></td>
+      <td><strong>-14</strong></td>
+      <td><strong>-13</strong></td>
+      <td><strong>-12</strong></td>
+      <td><strong>-11🔴</strong></td>
+      <td><strong>-10</strong></td>
+      <td><strong>-9</strong></td>
+      <td><strong>-8🟡</strong></td>
+      <td><strong>-7🔴</strong></td>
+      <td><strong>-6</strong></td>
+      <td><strong>-5</strong></td>
+      <td><strong>-4</strong></td>
+      <td><strong>-3</strong></td>
+      <td><strong>-2</strong></td>
+      <td><strong>-1</strong></td>
     </tr>
   </tbody>
 </table>
@@ -246,25 +292,25 @@ print(word[-11:-7]) # caracteres desde la posición -7 hasta la -11 (from)
         <th></th>
         <th>0</th>
         <th>1</th>
-        <th style=" background-color:rgb(176, 32, 10);">2</th>
+        <th>2🔴</th>
         <th>3</th>
         <th>4</th>
     </tr>
     <tr>
         <th>0</th>
-        <td style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">10</td>
-        <td style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">12</td>
-        <td style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">14</td>
-        <td style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">16</td>
-        <td style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">18</td>
+        <td>10</td>
+        <td>12</td>
+        <td>14</td>
+        <td>16</td>
+        <td>18</td>
     </tr>
     <tr>
-        <th style=" background-color:rgb(176, 32, 10);" >1</th>
-        <td style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">20</td>
-        <td style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">22</td>
-        <td style="border: 1px solid #000; padding: 8px; background-color:rgb(52, 110, 7);">24</td>
-        <td style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">26</td>
-        <td style="border: 1px solid #000; padding: 8px; background-color:rgb(5, 92, 135);">28</td>
+        <th >1🔴</th>
+        <td>20</td>
+        <td>22</td>
+        <td>24🟢</td>
+        <td>26</td>
+        <td>28</td>
     </tr>
 </table>
 
