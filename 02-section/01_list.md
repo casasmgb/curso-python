@@ -6,51 +6,10 @@ impares = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
 print(impares)
 ```
 ###  Índices de la Lista
-<table style="font-size: 18px; border-collapse: collapse; width: 100%; margin: 20px auto;">
-  <thead>
-    <tr>
-      <th>Valor</th>
-      <th>1</th>
-      <th>3</th>
-      <th>5</th>
-      <th>7</th>
-      <th>9🟢</th>
-      <th>11</th>
-      <th>13</th>
-      <th>15</th>
-      <th>17</th>
-      <th>19</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Índice Positivo</strong></td>
-      <td><strong>0</strong></td>
-      <td><strong>1</strong></td>
-      <td><strong>2</strong></td>
-      <td><strong>3</strong></td>
-      <td><strong>4🔴</strong></td>
-      <td><strong>5</strong></td>
-      <td><strong>6</strong></td>
-      <td><strong>7</strong></td>
-      <td><strong>8</strong></td>
-      <td><strong>9</strong></td>
-    </tr>
-    <tr>
-      <td><strong>Índice Negativo</strong></td>
-      <td></td>
-      <td><strong>-9</strong></td>
-      <td><strong>-8</strong></td>
-      <td><strong>-7</strong></td>
-      <td><strong>-6🔴</strong></td>
-      <td><strong>-5</strong></td>
-      <td><strong>-4</strong></td>
-      <td><strong>-3</strong></td>
-      <td><strong>-2</strong></td>
-      <td><strong>-1</strong></td>
-    </tr>
-  </tbody>
-</table>
+| Valor           | 1   | 3   | 5   | 7   | ![](../images/9.green.png)| 11  | 13  | 15  | 17  | 19  |
+|-----------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| **Índice Positivo** | 0   | 1   | 2   | 3   |![](../images/4.red.png)| 5   | 6   | 7   | 8   | 9   |
+| **Índice Negativo** |     | -9  | -8  | -7  | -6  | -5  | -4  | -3  | -2  | -1  |
 
 ---
 
@@ -73,52 +32,6 @@ print(impares[4:])
 2. Se utilizan rebanadas (`slicing`) para obtener subconjuntos de la lista.
 
 ## **4. Mostrar Rangos de la Lista**
-<table style="font-size: 18px; border-collapse: collapse; width: 100%; margin: 20px auto;">
-  <thead>
-    <tr>
-      <th>Valor</th>
-      <th>1</th>
-      <th>3</th>
-      <th>5</th>
-      <th>7🟢</th>
-      <th>9🟢</th>
-      <th>11🟢</th>
-      <th>13🟢</th>
-      <th>15🟢</th>
-      <th>17</th>
-      <th>19</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Índice Positivo</strong></td>
-      <td><strong>0</strong></td>
-      <td><strong>1</strong></td>
-      <td><strong>2</strong></td>
-      <td><strong>3🔴</strong></td>
-      <td><strong>4</strong></td>
-      <td><strong>5</strong></td>
-      <td><strong>6</strong></td>
-      <td><strong>7🔴</strong></td>
-      <td><strong>8</strong></td>
-      <td><strong>9</strong></td>
-    </tr>
-    <tr>
-      <td><strong>Índice Negativo</strong></td>
-      <td></td>
-      <td><strong>-9</strong></td>
-      <td><strong>-8</strong></td>
-      <td><strong>-7🔴</strong></td>
-      <td><strong>-6</strong></td>
-      <td><strong>-5</strong></td>
-      <td><strong>-4</strong></td>
-      <td><strong>-3🔴</strong></td>
-      <td><strong>-2</strong></td>
-      <td><strong>-1</strong></td>
-    </tr>
-  </tbody>
-</table>
-
 ```python
 # Mostrar rango
 print(impares[3:7])
@@ -184,94 +97,12 @@ desordenado.sort()  # Ordena la lista de menor a mayor
 print(desordenado)
 ```
 ## **9. Manipulación de Cadenas**
-<h3>Tabla de Índices y Caracteres</h3>
 
-<table style="font-size: 18px; border-collapse: collapse; width: 100%;">
-  <thead>
-    <tr>
-      <th>Carácter</th>
-      <th>H🟢</th>
-      <th>e🟢</th>
-      <th>l🟢</th>
-      <th>l🟢</th>
-      <th>o🟢</th>
-      <th>_</th>
-      <th>f🟢</th>
-      <th>r🟢</th>
-      <th>o🟢</th>
-      <th>m🟢</th>
-      <th>_</th>
-      <th>p</th>
-      <th>y</th>
-      <th>t</th>
-      <th>h</th>
-      <th>o </th>
-      <th>n</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>word[:5]</strong></td>
-      <td><strong>0🔴</strong></td>
-      <td><strong>1</strong></td>
-      <td><strong>2</strong></td>
-      <td><strong>3</strong></td>
-      <td><strong>4🟡</strong></td>
-      <td><strong>5🔴</strong></td>
-      <td><strong>6</strong></td>
-      <td><strong>7</strong></td>
-      <td><strong>8</strong></td>
-      <td><strong>9</strong></td>
-      <td><strong>10</strong></td>
-      <td><strong>11</strong></td>
-      <td><strong>12</strong></td>
-      <td><strong>13</strong></td>
-      <td><strong>14</strong></td>
-      <td><strong>15</strong></td>
-      <td><strong>16</strong></td>
-    </tr>
-    <tr>
-      <td><strong>word[6:10]</strong></td>
-      <td><strong>0</strong></td>
-      <td><strong>1</strong></td>
-      <td><strong>2</strong></td>
-      <td><strong>3</strong></td>
-      <td><strong>4</strong></td>
-      <td><strong>5</strong></td>
-      <td><strong>6🔴</strong></td>
-      <td><strong>7</strong></td>
-      <td><strong>8</strong></td>
-      <td><strong>9🟡</strong></td>
-      <td><strong>10🔴</strong></td>
-      <td><strong>11</strong></td>
-      <td><strong>12</strong></td>
-      <td><strong>13</strong></td>
-      <td><strong>14</strong></td>
-      <td><strong>15</strong></td>
-      <td><strong>16</strong></td>
-    </tr>
-    <tr>
-      <td><strong>Índice Negativo</strong></td>
-      <td></td>
-      <td><strong>-16</strong></td>
-      <td><strong>-15</strong></td>
-      <td><strong>-14</strong></td>
-      <td><strong>-13</strong></td>
-      <td><strong>-12</strong></td>
-      <td><strong>-11🔴</strong></td>
-      <td><strong>-10</strong></td>
-      <td><strong>-9</strong></td>
-      <td><strong>-8🟡</strong></td>
-      <td><strong>-7🔴</strong></td>
-      <td><strong>-6</strong></td>
-      <td><strong>-5</strong></td>
-      <td><strong>-4</strong></td>
-      <td><strong>-3</strong></td>
-      <td><strong>-2</strong></td>
-      <td><strong>-1</strong></td>
-    </tr>
-  </tbody>
-</table>
+| Carácter       | ![](../images/H.green.png)| ![](../images/e.green.png) | ![](../images/l.green.png) | ![](../images/l.green.png) | ![](../images/o.green.png) | _   | ![](../images/f.green.png) | ![](../images/r.green.png) | ![](../images/o.green.png) | ![](../images/m.green.png) | _   | p   | y   | t   | h   | o   | n   |
+|----------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| **word[:5]**   | ![](../images/0.red.png) | 1   | 2   | 3   | ![](../images/4.orange.png) | ![](../images/5.red.png) | 6   | 7   | 8   | 9   | 10  | 11  | 12  | 13  | 14  | 15  | 16  |
+| **word[6:10]** | 0   | 1   | 2   | 3   | 4   | 5   | ![](../images/6.red.png) | 7   | 8   | ![](../images/9.orange.png) | ![](../images/10.red.png) | 11  | 12  | 13  | 14  | 15  | 16  |
+| **Índice Negativo** |     | -16 | -15 | -14 | -13 | -12 | ![](../images/-11.red.png) | -10 | -9  | ![](../images/-8.orange.png)  | ![](../images/-7.red.png) | -6  | -5  | -4  | -3  | -2  | -1  |
 
 ```python
 word = 'Hello_from_python'
@@ -279,41 +110,15 @@ print(word)
 
 print(word[:5])   # primeros 5 caracteres (Hello)
 print(word[6:10]) # caracteres desde la posición 6 hasta la 9 (from)
-print(word[-11:-7]) # caracteres desde la posición -7 hasta la -11 (from)
+print(word[-11:-7]) # caracteres desde la posición -11 hasta la -7 (from)
 ```
 
 ## **10. Matrices**
 
-
-<h2 style="text-align: center;">Matriz</h2>
-
-<table style="font-size: 18px; border-collapse: collapse; width: 100%;">
-    <tr>
-        <th></th>
-        <th>0</th>
-        <th>1</th>
-        <th>2🔴</th>
-        <th>3</th>
-        <th>4</th>
-    </tr>
-    <tr>
-        <th>0</th>
-        <td>10</td>
-        <td>12</td>
-        <td>14</td>
-        <td>16</td>
-        <td>18</td>
-    </tr>
-    <tr>
-        <th >1🔴</th>
-        <td>20</td>
-        <td>22</td>
-        <td>24🟢</td>
-        <td>26</td>
-        <td>28</td>
-    </tr>
-</table>
-
+|       | 0   | 1   | ![](../images/2.red.png) | 3   | 4   |
+|-------|-----|-----|--------------------|-----|-----|
+| **0** | 10  | 12  | 14                 | 16  | 18  |
+| ![](../images/1.red.png) | 20  | 22  | ![](../images/24.green.png) | 26  | 28  |
 
 ```python
 matriz = [ 
